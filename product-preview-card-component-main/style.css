@@ -44,9 +44,11 @@ body {
   line-height: 15px;
   letter-spacing: 5px;
   text-align: left;
+  margin: 0;
+  margin-bottom: 1rem;
 }
 
-.product-name {
+.card-name {
   color: #1C232B;
   font-family: Fraunces;
   font-size: 32px;
@@ -54,13 +56,14 @@ body {
   line-height: 32px;
   letter-spacing: 0px;
   text-align: left;
+  margin: 0;
+  margin-bottom: 1.25rem;
 }
 
 .card-content {
   max-width: 100%;
   max-height: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 1.5rem 2rem;
   margin: 0 auto;
 }
 
@@ -72,10 +75,13 @@ body {
   line-height: 23px;
   letter-spacing: 0px;
   text-align: left;
+  margin: 0;
+  margin-bottom: 1.25rem;
 }
 
 .prices {
   display: flex;
+  margin-bottom: 1.5rem;
 }
 
 .actual-price {
@@ -86,6 +92,7 @@ body {
   line-height: 32px;
   letter-spacing: 0px;
   text-align: left;
+  margin: 0;
 }
 
 .old-price {
@@ -97,6 +104,7 @@ body {
   letter-spacing: 0px;
   text-align: left;
   padding-left: 10px;
+  margin: 0;
 }
 
 .btn-green {
